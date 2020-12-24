@@ -9,6 +9,6 @@ main ()
     float radius , area;
     scanf("%f", &radius);
     area = radius * radius * PI;
-    printf(CYAN"Area of Circle is : %.4f"RESET, area);
+    printf(CYAN"Area of Circle is              : %.4f"RESET, area);
     return 0;
 }
