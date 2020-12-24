@@ -27,7 +27,7 @@ void main ()
     printf("ASCII value of Integer Value 50 is : %c\n",50); // Finding ASCII Value of Integer.
     printf("ASCII value of New Line '\\n' is : %d",'\n'); // Finding ASCII Value of Escape Sequence.
     printf("%cPrinting in new line %cwithout Esacpe Sequence",10,10); // Printing in new line without escape values.
-    printf("%c%cPrinting in new line %cwithout Esacpe Sequence",10,9,9); // Printing in tab without escape values.
+    printf("%cPrinting in new line %cwithout Esacpe Sequence",10,9); // Printing in tab without escape values.
 
     return 0;
 }
