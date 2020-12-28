@@ -6,7 +6,7 @@ int main ()
     printf(BLACK"Welcome to the Program.\n"RESET);
     printf(BLACK"Enter the Term till you want to print Fibonacci Sequence : "RESET);
     int a, num = 1, add, add2;
-    int b =  0;
+    int b = 0;
     int c = 1;
     scanf("%d", &a);
     for (add = 1; add <= a; ++add) {
