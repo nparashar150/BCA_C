@@ -3,7 +3,7 @@ int main ()
 {
     char inp;
     printf("Welcome to the Program");
-    printf("\nEnter the Char/Num/Symbol :");
+    printf("\nEnter the Char/Num/Symbol : ");
     scanf("%c", &inp);
     if((inp >= 97 && inp <= 122) || (inp >= 65 && inp <= 90))
        printf("\nThe entered character %c is an Alphabet",inp);
