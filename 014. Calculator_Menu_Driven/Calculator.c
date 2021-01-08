@@ -34,7 +34,7 @@ int main()
             printf(PURPLE"Enter the Second Number : "RESET);
             scanf("%f", &num2);
             sum = num1 - num2;
-            printf(PURPLE"Adding them we get : %.2f"RESET, sum);
+            printf(PURPLE"Substracting them we get : %.2f"RESET, sum);
             break;
         }
         case 3: {
@@ -44,7 +44,7 @@ int main()
             printf(PURPLE"Enter the Second Number : "RESET);
             scanf("%f", &num2);
             sum = num1 * num2;
-            printf(PURPLE"Adding them we get : %.2f"RESET, sum);
+            printf(PURPLE"Multiplying them we get : %.2f"RESET, sum);
             break;
         }
         case 4: {
@@ -54,7 +54,7 @@ int main()
             printf(PURPLE"Enter the Second Number : "RESET);
             scanf("%f", &num2);
             sum = num1 / num2;
-            printf(PURPLE"Adding them we get : %.2f"RESET, sum);
+            printf(PURPLE"Dividing them we get : %.2f"RESET, sum);
             break;
         }
         case 5: {
@@ -64,6 +64,8 @@ int main()
         }
         default: {
             printf(RED"Enter appropriate value."RESET);
+            break;
+            printf("Will this be printed?"); //This cannot be printed as we have given break
         }
     }
 
