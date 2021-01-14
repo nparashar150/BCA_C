@@ -13,7 +13,7 @@ int main()
     int sum , b;
     for (b = 1; b < 11; b++)
     {
-    sum = sum + b;
+    sum += b;
     }
 
     printf(BLUE"\n\nThe Sum of First 10 Numbers is : %d "RESET, sum);
