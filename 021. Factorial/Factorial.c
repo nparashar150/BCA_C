@@ -11,7 +11,7 @@ int main()
     for (int c = 1; c <= a; ++c)
     {
         b*= c;
-        printf(BOLD"\nFactorial of %d is : %llu"RESET,a ,b);
     }
+    printf(BOLD"\nFactorial of %d is : %llu"RESET,a ,b);
     return 0;
 }
