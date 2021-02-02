@@ -3,7 +3,6 @@ int main()
 {
     int a[100], b, m, n;
     printf("Welcome to the Program.");
-    printf("\nEnter the ten Numbers : ");
     printf("\nEnter the Number of Digits : ");
     scanf("%d", &n);
     printf("Enter the Digits by giving space : ");
